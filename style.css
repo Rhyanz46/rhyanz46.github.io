@@ -1,0 +1,87 @@
+.bg {
+    font-family: 'Bubbler One';
+    background: #41295A;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    width: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.flex-item {
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+.img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    overflow: hidden;
+    margin-top: 50px;
+    -webkit-box-shadow: 0px 35px 26px -21px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 18px 6px -13px rgba(35, 20, 0, 0.4);
+}
+
+.icons {
+    margin-top: 200px;
+}
+
+.my-name {
+    padding-top: 20px;
+}
+
+.msg {
+    padding-top: 20px;
+    font-size: larger;
+    word-spacing: 5px;
+}
+
+@font-face {
+    font-family: 'Bubbler One';
+    src: url('font/Bubbler_One/BubblerOne-Regular.ttf') format('truetype');
+}
+
+#water {
+    position: absolute;
+    z-index: 0;
+    height: 100vh;
+    width: 100% !important;
+    margin-top: -50px;
+    border-radius: 50%;
+    width: 308px;
+}
+
+#bottom-animation {
+    position: absolute;
+    bottom: 0px;
+    z-index: 0;
+    bottom: -146px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.icon-color {
+    fill: #333333;
+    cursor: pointer;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: #3a99b8;
+    text-decoration: none;
+}
