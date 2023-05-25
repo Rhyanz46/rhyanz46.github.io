@@ -37,17 +37,16 @@
 }
 
 .icons {
-    margin-top: 5px;
-    margin-bottom: 100px;
+    /* margin-top: 5px; */
     padding: 10%;
 }
 
 .my-name {
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 
 .msg {
-    padding-top: 20px;
+    /* padding-top: 20px; */
     font-size: larger;
     word-spacing: 5px;
 }
